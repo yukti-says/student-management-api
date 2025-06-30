@@ -81,7 +81,7 @@ Edit
 ## 🛠️ Setup & Run Locally
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/student-management-api.git
+git clone https://github.com/yukti-says/student-management-api
 cd student-management-api
 npm install
 ```
