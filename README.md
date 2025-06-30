@@ -18,6 +18,24 @@ A role-based RESTful API built with Node.js, Express, and MongoDB for managing s
 
 ---
 
+## Live Deployed 
+  [https://student-management-api-w0gc.onrender.com](https://student-management-api-w0gc.onrender.com)
+
+---
+
+## PostMan Tests
+
+## 📸 Screenshots
+
+ User Registration:
+ 
+ ![Auth](assets/screenshots/register.png) |
+
+ User Login:
+ ![Teacher](assets/screenshots/login.png) |
+
+---
+
 ## 🧱 Tech Stack
 
 | Layer     | Technology       |
@@ -88,15 +106,15 @@ npm install
 ```ini
 
 
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/studentDB
-JWT_SECRET=yourSecretKey
+PORT = 5000
+MONGO_URI = "mongodb+srv://yuktiji:yuktiji@cluster0.a9q6ybi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+JWT_SECRET = "yukti's good"
 ```
 
 ### ✅ Run Project
 
 
-```npm run dev```
+```nodemon server.js```
 
 ## 🧠 Learnings
 
